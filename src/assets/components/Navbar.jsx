@@ -1,14 +1,11 @@
-import React from "react";
 import BtnPrimary from "./BtnPrimary";
+import Logo from "../image/Logo.png";
 
 export default function Navbar() {
   return (
     <nav className="flex  justify-around h-[80px] justify-center items-center">
       <ul className="inline-flex justify-between w-[529px] text-Primary font-bold">
-        <img
-          src="#"
-          alt="logo"
-        />
+        <img src={Logo} alt="logo" />
         <li>
           <a href="">Home</a>
         </li>
@@ -23,8 +20,12 @@ export default function Navbar() {
         </li>
       </ul>
       <form action="" className="w-[497px] h-[44px] flex justify-between ">
-        <input type="text" placeholder="Search something here!" className="w-[280px] h-[44px] rounded-full pl-5 text-[14px]"/>
-        <BtnPrimary txt="Join the conmmunity"/>
+        <input
+          type="text"
+          placeholder="Search something here!"
+          className="w-[280px] h-[44px] rounded-full pl-5 text-[14px]"
+        />
+        <BtnPrimary txt="Join the conmmunity" />
       </form>
     </nav>
   );
