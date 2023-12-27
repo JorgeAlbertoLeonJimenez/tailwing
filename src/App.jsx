@@ -57,7 +57,7 @@ function App() {
         <Banner />
       </section>
       <section className="flex flex-col justify-center items-center">
-        <div className="flex justify-center items-center xl:w-[70%] md:w-[95%] justify-between md:w-[95%] mb-[50px] w-[100%] mx-[100px] mt-[40px]">
+        <div className="flex justify-center items-center xl:w-[70%] md:w-[95%] justify-between md:w-[95%] mb-[50px]  mx-[100px] mt-[40px]">
           <TitleP />
           <BtnSecondary txt="view more >" />
         </div>

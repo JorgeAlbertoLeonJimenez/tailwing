@@ -12,8 +12,8 @@ export default function Banner() {
         backgroundPosition: "center",
       }}
     >
-      <img src={PersonaB} alt="" className="w-[550px] h-[100%]"/>
-      <TitleText position="text-right" BtnPosition="float-right" />
+      <img src={PersonaB} alt="" className="xl:w-[550px] md:w-[50%] h-[100%]"/>
+      <TitleText position="text-right" BtnPosition="float-right"  />
     </div>
   );
 }
