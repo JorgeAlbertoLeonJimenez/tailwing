@@ -13,7 +13,7 @@ export default function Banner() {
       }}
     >
       <img src={PersonaB} alt="" className="xl:w-[550px] md:w-[50%] h-[100%]"/>
-      <TitleText position="text-right" BtnPosition="float-right"  />
+      <TitleText position="text-right" BtnPosition="ml-[30%]"  />
     </div>
   );
 }
