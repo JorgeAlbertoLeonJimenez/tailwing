@@ -47,21 +47,21 @@ function App() {
         </div>
       </main>
       <section className="flex flex-col justify-center items-center">
-        <div className="flex justify-center items-center w-[60%] justify-between mb-[50px] w-[100%] mx-[100px] mt-[40px]">
+        <div className="flex justify-center items-center xl:w-[70%] justify-between mb-[50px] w-[100%] mx-[100px] mt-[40px] md:w-[95%]">
           <TitleP />
           <BtnSecondary txt="view more >" />
         </div>
-        <div className="flex justify-center gap-10 lg:w-[60%] sm:w-[50%] sm:bg-slate-800 md:bg-red-500 xl:bg-green-500 bg-black flex-wrap">
+        <div className="flex justify-center gap-10  md:w-[90%]  xl:w-[70%] xl:gap-10 flex-wrap">
           {listDogs}
         </div>
         <Banner />
       </section>
       <section className="flex flex-col justify-center items-center">
-        <div className="flex justify-center items-center w-[60%] justify-between mb-[50px] w-[100%] mx-[100px] mt-[40px]">
+        <div className="flex justify-center items-center xl:w-[70%] md:w-[95%] justify-between md:w-[95%] mb-[50px] w-[100%] mx-[100px] mt-[40px]">
           <TitleP />
           <BtnSecondary txt="view more >" />
         </div>
-        <div className="flex justify-center gap-10 w-[70%] flex-wrap">
+        <div className="flex justify-center gap-10 xl:w-[70%] md:w-[90%] flex-wrap">
           <Card />
           <Card />
           <Card />
@@ -71,13 +71,15 @@ function App() {
           <Card />
           <Card />
         </div>
-        <div className="flex justify-center items-center w-[60%] justify-between mb-[50px] w-[100%] mx-[100px] mt-[40px]">
+        <div className="flex justify-center items-center md:w-[95%] xl:w-[70%] justify-between mb-[50px] w-[100%] mx-[100px] mt-[40px]">
           <TitleS />
           <BtnSecondary txt="view all our selller >" />
         </div>
-        <NavbarIcons />
+        <div className="">
+          
+        </div>
       </section>
-      <footer className="flex flex-col justify-center items-center h-[440px] bg-Linear">
+      <footer className="flex flex-col justify-center  items-center h-[440px] bg-Linear">
         <FooterSubscribe />
         <FooterS/>
       </footer>

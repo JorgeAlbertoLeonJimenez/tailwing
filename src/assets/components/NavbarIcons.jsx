@@ -8,7 +8,7 @@ import imagen7 from "../image/icons/icon7.png";
 
 export default function NavbarIcons() {
   return (
-    <div className="flex gap-10 mb-[50px]">
+    <div className="flex gap-5 mb-[50px]">
       <img src={imagen1} alt="" />
       <img src={imagen2} alt="" />
       <img src={imagen3} alt="" />

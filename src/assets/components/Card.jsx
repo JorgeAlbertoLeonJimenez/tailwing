@@ -2,7 +2,7 @@
 export default function Card({nombrePerro,fotoP}) {
 
   return (
-    <div className="bg-red-500 w-[280px] h-[378px] flex flex-col justify-center items-center rounded-xl justify-around">
+    <div className="bg-gray-500 w-[280px] h-[378px] flex flex-col justify-center items-center rounded-xl justify-around">
       <img src={fotoP} alt="" className="w-[264px] h-[264px] rounded-xl" />
       <div className="w-[248px] h-[70px] flex flex-col justify-between">
         <h5 className="font-bold">{nombrePerro}</h5>

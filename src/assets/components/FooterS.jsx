@@ -6,7 +6,7 @@ import youtube from "../image/icons/youtube.svg"
 
 export default function FooterS() {
   return (
-    <div className="flex items-center justify-between w-[1180px] h-[104px]">
+    <div className="flex items-center justify-between xl:w-[100%] md:w-[95%] h-[104px]">
         <div>
             <ul className="flex gap-20 font-medium">
                 <li><a href="">Home</a></li>
