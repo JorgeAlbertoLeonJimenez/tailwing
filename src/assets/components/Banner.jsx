@@ -5,7 +5,7 @@ import PersonaB from "../image/Persona3.png";
 export default function Banner() {
   return (
     <div
-      className="w-[60%] h-[378px] rounded-xl flex justify-around mt-[50px]"
+      className="w-[1100px] h-[378px] rounded-xl flex justify-around mt-[50px]"
       style={{
         backgroundImage: `url(${fondoB})`,
         backgroundSize: "cover",

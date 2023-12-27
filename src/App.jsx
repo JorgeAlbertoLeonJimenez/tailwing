@@ -51,7 +51,7 @@ function App() {
           <TitleP />
           <BtnSecondary txt="view more >" />
         </div>
-        <div className="flex justify-center gap-10 lg:w-[60%] sm:w-[50%] sm:bg-slate-800 md:bg-red-500   xl:bg-green-500 bg-black flex-wrap">
+        <div className="flex justify-center gap-10 lg:w-[60%] sm:w-[50%] sm:bg-slate-800 md:bg-red-500 xl:bg-green-500 bg-black flex-wrap">
           {listDogs}
         </div>
         <Banner />
